@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="listresult_img_dim">60dp</dimen>
+    <dimen name="listresult_fav_icon_dim">20dp</dimen>
+    <dimen name="margin_generic">20dp</dimen>
+</resources>

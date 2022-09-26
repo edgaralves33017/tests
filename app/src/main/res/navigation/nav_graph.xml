@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ListResultFragment">
+
+
+    <fragment
+        android:id="@+id/ListResultFragment"
+        android:name="com.project.test.ui.listresult.fragment.ListResultFragment"
+        android:label="@string/listresult_fragment"
+        tools:layout="@layout/fragment_listresult">
+        <action
+            android:id="@+id/action_ListResultFragment_to_ImageDetailFragment"
+            app:destination="@id/ImageDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ImageDetailFragment"
+        android:name="com.project.test.ui.imagedetail.fragment.ImageDetailFragment"
+        android:label="@string/imagedetail_fragment"
+        tools:layout="@layout/fragment_imagedetail">
+        <action
+            android:id="@+id/action_ImageDetailFragment_to_ListResultFragment"
+            app:destination="@id/ListResultFragment"
+            app:popUpTo="@+id/a"
+            app:popUpToSaveState="true"/>
+        <argument
+            android:name="entry"
+            app:argType="com.project.test.data.models.Entry" />
+    </fragment>
+</navigation>

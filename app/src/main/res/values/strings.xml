@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="placeholder">Placeholder</string>
+    <string name="default_error_message">Erro. Por favor tente outra vez mais tarde.</string>
+    <string name="listresult_fragment">ListResultFragment</string>
+    <string name="imagedetail_fragment">ImageDetailFragment</string>
+    <string name="main_title">Flickr</string>
+    <string name="cancel">Fechar</string>
+    <string name="dialog_image_details">"Title: %1$s\nAuthor: %2$s\nPublished: %3$s\nTags: %4$s"</string>
+</resources>
